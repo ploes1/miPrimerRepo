@@ -34,3 +34,5 @@ static string MaskPassword(string connectionString)
 		"(?i)(Password\\s*=\\s*)[^;]*",
 		"$1***");
 }
+
+string strype_api_key="sk_test_4eC39HqLyjWDarjtT1zdp7dc";

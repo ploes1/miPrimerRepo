@@ -34,7 +34,3 @@ static string MaskPassword(string connectionString)
 		"(?i)(Password\\s*=\\s*)[^;]*",
 		"$1***");
 }
-
-string strype_api_key="sk_test_4eC39HqLyjWDarjtT1zdp7dc";
-
-string testingConnection = "Server=tcp:aminesserver.database.windows.net,1433;Initial Catalog=testingdb;Persist Security Info=False;User ID=testinguser;Password=TestPassword123!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
